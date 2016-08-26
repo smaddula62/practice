@@ -1,3 +1,7 @@
+
+// This is for rest controller
+
+// Edited Code
 package com.miracle.spring.controller;
 
 import java.util.Date;
@@ -26,7 +30,6 @@ public class RestController {
 	private void setRestVO(RestVO restVo){
 		this.restVo = restVo;
 	}
-
 	//Map to store employees, ideally we should use database
 	Map<Integer, RestVO> empData = new HashMap<Integer, RestVO>();
 	@RequestMapping(value = RestURIConstants.TIME_STAMP, method = RequestMethod.GET)
