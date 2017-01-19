@@ -169,7 +169,8 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-                    <goals>site-deploy</goals>			
+                    <goals>site-deploy</goals>	
+					<connectionUrl>scm:git:https://github.com/AshishSanju/practice</connectionUrl>
 					<autoversionsubmodules>true</autoversionsubmodules>
 				</configuration>
 			</plugin>
