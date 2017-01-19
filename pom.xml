@@ -7,8 +7,8 @@
 	<packaging>war</packaging>
 	<version>3.1.1-SNAPSHOT</version>
 	<scm>
-	     <connection>scm:git:https://github.com/AshishSanju/practice</connection>
-		<developerConnection>scm:git:https://github.com/AshishSanju/practice</developerConnection>
+	     <connection>scm:git:https://github.com/AshishSanju/practice.git</connection>
+		<developerConnection>scm:git:https://github.com/AshishSanju/practice.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 	<properties>
@@ -170,7 +170,6 @@
 				<version>2.5.3</version>
 				<configuration>
                     <goals>site-deploy</goals>	
-					<connectionUrl>scm:git:https://github.com/AshishSanju/practice</connectionUrl>
 					<autoversionsubmodules>true</autoversionsubmodules>
 				</configuration>
 			</plugin>
