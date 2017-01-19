@@ -160,26 +160,6 @@
 					<mainClass>org.test.int1.Main</mainClass>
 				</configuration>
 			</plugin>
-			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-install-plugin</artifactId>
-                <version>2.4</version>
-                <executions>
-                    <execution>
-                        <id>install-default-version</id>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>install-file</goal>
-                        </goals>
-						<configuration>
-                                <classifier>${BUILD_NUMBER}</classifier>
-                            </configuration>
-                        <configuration>
-                            <file>${project.build.directory}/${project.build.finalName}-${BUILD_NUMBER}.${project.packaging}</file>
-                        </configuration>
-                    </execution>
-                </executions>
-             </plugin>
 		</plugins>
 
 	</build>
