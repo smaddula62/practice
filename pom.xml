@@ -168,7 +168,7 @@
 					<goals>deploy</goals>
 					<autoversionsubmodules>true</autoversionsubmodules>
 				</configuration>
-			</plugin
+			</plugin>
 		</plugins>
 
 	</build>
