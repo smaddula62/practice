@@ -7,6 +7,7 @@
 	<packaging>war</packaging>
 	<version>3.1.1-SNAPSHOT</version>
 	<scm>
+	     <connection>scm:git:https://github.com/AshishSanju/practice</connection>
 		<developerConnection>scm:git:https://github.com/AshishSanju/practice</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
@@ -163,16 +164,6 @@
 					<mainClass>org.test.int1.Main</mainClass>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.3</version>
-				<configuration>
-					<goals>build</goals>
-					<autoversionsubmodules>true</autoversionsubmodules>
-				</configuration>
-			</plugin>
 		</plugins>
-
-	</build>
+    </build>
 </project>
