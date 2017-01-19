@@ -167,7 +167,6 @@
                 <version>2.4</version>
                 <executions>
                     <execution>
-                        <id>install-default-version</id>
                         <phase>install</phase>
                         <goals>
                             <goal>install-file</goal>
