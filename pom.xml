@@ -7,7 +7,6 @@
 	<name>SpringRestExample</name>
 	<packaging>war</packaging>
 	<version>1.0.1-BUILD-SNAPSHOT</version>
-	<classifier>1.0.1</classifier>
 	<properties>
 		<java-version>1.8</java-version>
 		<org.springframework-version>4.0.0.RELEASE</org.springframework-version>
