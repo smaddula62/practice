@@ -163,28 +163,7 @@
 					<mainClass>org.test.int1.Main</mainClass>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.3</version>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>buildnumber-maven-plugin</artifactId>
-				<version>1.4</version>
-				<executions>
-				<execution>
-					<phase>validate</phase>
-					<goals>
-					<goal>create</goal>
-					</goals>
-				</execution>
-				</executions>
-				<configuration>
-				<doCheck>true</doCheck>
-				<doUpdate>true</doUpdate>
-				</configuration>
-			</plugin>
+
 		</plugins>
 
 	</build>
