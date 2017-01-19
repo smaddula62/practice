@@ -171,9 +171,6 @@
                         <goals>
                             <goal>install-file</goal>
                         </goals>
-						<configuration>
-                                <classifier>${BUILD_NUMBER}</classifier>
-                            </configuration>
                         <configuration>
                             <file>${project.build.directory}/${project.build.finalName}-${BUILD_NUMBER}.${project.packaging}</file>
                         </configuration>
