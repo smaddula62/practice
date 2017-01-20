@@ -5,10 +5,10 @@
 	<artifactId>SpringRestExample</artifactId>
 	<name>SpringRestExample</name>
 	<packaging>war</packaging>
-	<version>3.1.1</version>
+	<version>3.1.2-SNAPSHOT</version>
 	<scm>
 	    <developerConnection>scm:git:https://github.com/AshishSanju/practice.git</developerConnection>
-	  <tag>SpringRestExample-3.1.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<properties>
 		<java-version>1.8</java-version>
