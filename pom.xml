@@ -16,7 +16,7 @@
 		<repository>
 			<id>localSnap</id>
 			<name>RepositoryProxyRel</name>
-			<url>dav:https://github.com/AshishSanju/practice</url>
+			<url>file://github.com/AshishSanju/practice</url>
 		</repository>
 	</distributionManagement>
 	<properties>
