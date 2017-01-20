@@ -10,13 +10,13 @@
 		<repository>
 			<id>localSnap</id>
 			<name>RepositoryProxyRel</name>
-			<url>C:\Program Files (x86)\Jenkins\workspace\Practice\target</url>
+			<url>http://jenkins-master.com/plugin/repository/project/Practice/Build/</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
 			<id>MylocalSnap</id>
 			<name>RepositoryProxySnap</name>
-        <url>C:\Program Files (x86)\Jenkins\workspace\Practice\target</url>
+        <url>http://jenkins-master.com/plugin/repository/project/Practice/Build/</url>
 		</snapshotRepository>
     </distributionManagement>
 	<scm>
