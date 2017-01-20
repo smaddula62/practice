@@ -9,8 +9,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/AshishSanju/practice</connection>
 	    <developerConnection>scm:git:https://github.com/AshishSanju/practice</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 	<distributionManagement>
 		<!-- Publish the versioned releases here -->
 		<repository>
