@@ -5,17 +5,18 @@
 	<artifactId>SpringRestExample</artifactId>
 	<name>SpringRestExample</name>
 	<packaging>war</packaging>
-	<version>3.0.1-SNAPSHOT</version>
+	<version>3.0.2-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/AshishSanju/practice</connection>
 	    <developerConnection>scm:git:https://github.com/AshishSanju/practice</developerConnection>
-	</scm>
+	  <tag>HEAD</tag>
+  </scm>
 	<distributionManagement>
 		<!-- Publish the versioned releases here -->
 		<repository>
 			<id>localSnap</id>
 			<name>RepositoryProxyRel</name>
-			<url>scp://github.com/AshishSanju/practice</url>
+			<url>dav:https://github.com/AshishSanju/practice</url>
 		</repository>
 	</distributionManagement>
 	<properties>
