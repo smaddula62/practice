@@ -7,10 +7,17 @@
 	<packaging>war</packaging>
 	<version>3.1.2-SNAPSHOT</version>
 	<distributionManagement>
-		<site>
-			<id>Site-id</id>
-			<url>https://github.com/AshishSanju/practice.git</url>
-		</site>
+		<repository>
+			<id>localSnap</id>
+			<name>RepositoryProxyRel</name>
+			<url>C:\Program Files (x86)\Jenkins\workspace\Practice\target</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. -->
+		<snapshotRepository>
+			<id>MylocalSnap</id>
+			<name>RepositoryProxySnap</name>
+        <url>C:\Program Files (x86)\Jenkins\workspace\Practice\target</url>
+		</snapshotRepository>
     </distributionManagement>
 	<scm>
 		<connection>scm:git:https://github.com/AshishSanju/practice.git</connection>
