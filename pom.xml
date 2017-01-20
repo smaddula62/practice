@@ -7,6 +7,10 @@
 	<packaging>war</packaging>
 	<version>3.0.1-SNAPSHOT</version>
 	<distributionManagement>
+		<site>
+			<id>www.yourcompany.com</id>
+			<url>sftp://jenkins-master.com/plugin/repository/project/Practice/Build/</url>
+		</site>
 		<repository>
 			<id>localSnap</id>
 			<name>RepositoryProxyRel</name>
