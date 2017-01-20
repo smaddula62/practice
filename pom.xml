@@ -9,7 +9,7 @@
 	<distributionManagement>
 		<site>
 			<id>Site-id</id>
-			<url>${project.url}</url>
+			<url>C:\Program Files (x86)\Jenkins\workspace\Practice\target</url>
 		</site>
     </distributionManagement>
 	<scm>
