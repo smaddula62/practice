@@ -6,24 +6,23 @@
 	<name>SpringRestExample</name>
 	<packaging>war</packaging>
 	<version>3.0.1-SNAPSHOT</version>
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			<id>localSnap</id>
 			<name>RepositoryProxyRel</name>
 			<url>http://jenkins-master.com/plugin/repository/project/Practice/Build/</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
-		<snapshotRepository>
+		<!-- <snapshotRepository>
 			<id>MylocalSnap</id>
 			<name>RepositoryProxySnap</name>
         <url>http://jenkins-master.com/plugin/repository/project/Practice/Build/</url>
 		</snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 	<scm>
 		<connection>scm:git:https://github.com/AshishSanju/practice.git</connection>
 	    <developerConnection>scm:git:https://github.com/AshishSanju/practice.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 	<properties>
 		<java-version>1.8</java-version>
 		<org.springframework-version>4.0.0.RELEASE</org.springframework-version>
