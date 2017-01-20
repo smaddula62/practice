@@ -186,6 +186,9 @@
 				<configuration>
                     <goals>deploy</goals>	
 					<autoversionsubmodules>true</autoversionsubmodules>
+					<checkModificationExcludes>
+						<checkModificationExclude>pom.xml</checkModificationExclude>
+					</checkModificationExcludes>
 				</configuration>
 			</plugin>
 		</plugins>
