@@ -6,7 +6,6 @@
 	<name>SpringRestExample</name>
 	<packaging>war</packaging>
 	<version>3.0.7-SNAPSHOT</version>
-	<project.scm.id>AshishSanju</project.scm.id>
 	<scm>
 		<connection>scm:git:https://github.com/AshishSanju/practice</connection>
 	    <developerConnection>scm:git:https://github.com/AshishSanju/practice</developerConnection>
