@@ -15,7 +15,7 @@
     <repository>
         <id>central</id>
         <name>Miracle-PC-releases</name>
-        <url>http://localhost:8081/artifactory/</url>
+        <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/simple/General/ext-release-local</url>
     </repository>
 	</distributionManagement>
 	<properties>
@@ -183,7 +183,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-                    <goals>install</goals>	
+                    <goals>deploy</goals>	
 					<autoversionsubmodules>true</autoversionsubmodules>
 					<checkModificationExcludes>
 						<checkModificationExclude>pom.xml</checkModificationExclude>
